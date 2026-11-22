@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-22T02:53:13Z",
+  "generatedAt": "2026-11-22T04:22:21Z",
   "summary": {
-    "ok": 27,
-    "failed": 4
+    "ok": 30,
+    "failed": 3
   },
   "changes": [],
   "discovered": [],
@@ -33,9 +33,9 @@
     },
     {
       "schoolId": "ccnu",
-      "url": "https://edu.ccnu.edu.cn/info/1020/94241.htm",
-      "ok": false,
-      "error": "提取到的文本过少，可能是登录页或动态渲染页面"
+      "url": "https://gs.ccnu.edu.cn/zsgz/bsyjs.htm",
+      "ok": true,
+      "title": "博士研究生-华中师范大学研究生院（专业学位管理中心）"
     },
     {
       "schoolId": "ccnu",
@@ -45,15 +45,21 @@
     },
     {
       "schoolId": "scnu",
+      "url": "https://yz.scnu.edu.cn/zhaoshengjianzhang/quanrizhiboshijianzhang/boshijianzhang/index.html",
+      "ok": true,
+      "title": "博士简章 - 华南师范大学研究生招生信息网"
+    },
+    {
+      "schoolId": "scnu",
       "url": "https://yz.scnu.edu.cn/a/20261116/694.html",
       "ok": true,
       "title": "2027年申请考核制博士招生实施细则 - 博士简章 - 华南师范大学研究生招生信息网"
     },
     {
       "schoolId": "scnu",
-      "url": "https://yanzhao.scnu.edu.cn/DoctorKh/SsxzOpen.aspx?nd=2027",
-      "ok": false,
-      "error": "提取到的文本过少，可能是登录页或动态渲染页面"
+      "url": "https://yz.scnu.edu.cn/a/20261103/692.html",
+      "ok": true,
+      "title": "2027年博士招生专业目录 - 博士简章 - 华南师范大学研究生招生信息网"
     },
     {
       "schoolId": "xmu",
@@ -140,6 +146,12 @@
       "title": "简章目录"
     },
     {
+      "schoolId": "nju",
+      "url": "https://yzb.nju.edu.cn/",
+      "ok": true,
+      "title": "研究生招生网"
+    },
+    {
       "schoolId": "seu",
       "url": "https://yzb.seu.edu.cn/6677/list.htm",
       "ok": true,
@@ -153,15 +165,15 @@
     },
     {
       "schoolId": "zju",
-      "url": "https://www.grs.zju.edu.cn/",
+      "url": "https://www.ced.zju.edu.cn/",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='www.grs.zju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.grs.zju.edu.cn', port=443): Failed to establish a new connection: [Errno"
+      "error": "HTTPSConnectionPool(host='www.ced.zju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.ced.zju.edu.cn', port=443): Failed to establish a new connection: [Errno"
     },
     {
       "schoolId": "zju",
-      "url": "https://ai.zju.edu.cn/2026/1020/c90497a3216866/page.htm",
-      "ok": true,
-      "title": "浙江大学人工智能学院2027年博士研究生招生简章"
+      "url": "https://www.grs.zju.edu.cn/",
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='www.grs.zju.edu.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.grs.zju.edu.cn', port=443): Failed to establish a new connection: [Errno"
     },
     {
       "schoolId": "hust",
