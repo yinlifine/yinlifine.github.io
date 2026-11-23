@@ -19,6 +19,19 @@
 .monitor-panel{margin-top:16px;padding:20px 25px}.monitor-hd{display:flex;align-items:center;justify-content:space-between;gap:12px}.monitor-hd h3{margin:0;font-size:16px}.monitor-list{display:grid;gap:10px;margin-top:13px}.monitor-item{font-size:12px;border-left:3px solid #cab48b;background:#fbfaf6;padding:10px 12px;border-radius:3px 8px 8px 3px}.monitor-item strong{display:block}.monitor-item small{display:block;color:#8b958c;margin-top:3px;line-height:1.6}.monitor-empty{font-size:12px;color:#8a9b96;padding:14px 0}.monitor-health{border-top:1px solid var(--line);margin-top:12px;padding-top:12px;font-size:12px;color:#6a7b78}.monitor-health details{margin-top:7px}.monitor-health summary{cursor:pointer;font-weight:650}.monitor-health li{margin:6px 0;overflow-wrap:anywhere}.monitor-health .failure{color:#9c4b4d}.monitor-health .ok{color:#386657}.monitor-status{font-size:11px;color:#889895;margin-top:13px}.footer{padding:22px 0 35px;border-top:1px solid #e2e9e6;display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:11px;color:#889c98}.footer strong{color:#47655f}.hidden{display:none!important}.verify{color:#718c84;font-size:11px}.extra-doc{color:#917347;font-size:10px}
 @media(max-width:1040px){.main{grid-template-columns:265px 1fr}.wrap{padding:0 20px}.detail{padding:22px}.datebox-time{font-size:17px}.file-grid,.facts{grid-template-columns:1fr}}
 @media(max-width:720px){.wrap{padding:0 15px}.topbar{padding-top:13px}.brand{font-size:12px}.top-right{font-size:10px}.hero{padding:34px 0 36px}.hero h1{font-size:27px}.metrics{grid-template-columns:repeat(2,1fr);gap:8px;margin-top:-14px}.metric{padding:12px 13px}.metric .val{font-size:23px}.main{display:block;margin-top:15px}.sidebar{position:static;margin-bottom:13px}.school-list{max-height:170px}.sidebar-head{padding:12px}.filters{gap:5px}.school-item{padding:9px}.detail{padding:18px}.detail-top{display:block}.detail h2{font-size:25px}.actions{justify-content:flex-start;margin-top:12px}.deadline-row{gap:7px}.datebox{padding:12px}.datebox-time{font-size:15px}.file-grid,.facts{grid-template-columns:1fr}.adviser-table th,.adviser-table td{padding:8px 6px;font-size:10px}.adviser-table td:first-child{width:28%}.footer{display:block}.footer>span{display:block;margin-bottom:7px}}
+
+/* 报考材料清单 */
+.materials-wrap{border:1px solid #dce8e4;border-radius:14px;padding:16px 18px;background:linear-gradient(180deg,#f9fcfb,#fff);margin-top:4px}
+.materials-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.materials-caption{font-size:12px;color:#68817b}.material-progress{font-size:12px;color:#2d6968;font-weight:700}
+.material-bar{background:#e9f1ee;border-radius:99px;height:8px;overflow:hidden;margin:11px 0 15px}.material-bar>span{display:block;background:#398e83;height:100%;transition:width .2s}
+.material-note{background:#fff9ee;border-left:3px solid #c5a36a;border-radius:6px;padding:10px 12px;font-size:12px;color:#78684d;line-height:1.8}
+.material-group{margin-top:17px}.material-group-title{font-size:13px;font-weight:750;color:#23474b;margin-bottom:8px;display:flex;gap:8px;align-items:center}
+.material-row{display:grid;grid-template-columns:21px 1fr;gap:11px;padding:11px 8px;border-top:1px solid #edf2ef}.material-row:first-child{border-top:0}.material-row input[type=checkbox]{appearance:auto;accent-color:#287c75;width:17px;height:17px;margin:3px 0 0;cursor:pointer}
+.material-text{min-width:0}.material-title{font-size:13px;font-weight:600;color:#28454a}.material-row.checked .material-title{text-decoration:line-through;opacity:.55}
+.material-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}.material-tag{font-size:10px;color:#58756e;background:#eaf3ef;border-radius:5px;padding:1px 6px}.material-tag.optional{color:#8b6727;background:#fff2d7}.material-tag.conditional{color:#715e91;background:#f0ecf8}.material-sub{font-size:11px;color:#687f79;line-height:1.6;margin-top:4px}
+.material-link{font-size:11px;white-space:nowrap}.material-clear{font-size:11px;padding:5px 9px;border:1px solid #cbded9;border-radius:7px;background:#fff;color:#3a6e69}
+@media(max-width:560px){.materials-wrap{padding:13px}.material-row{padding-left:1px;padding-right:1px}.material-group-title{font-size:12px}}
 </style>
 </head>
 <body>
@@ -51,6 +64,31 @@ function matches(s){const q=$('#search').value.trim().toLowerCase();const t=[s.n
 function renderList(){const shown=SCHOOLS.filter(matches).sort((a,b)=>{const da=a.registration.close,db=b.registration.close;if(!da)return 1;if(!db)return -1;return new Date(da)-new Date(db)});$('#visiblecount').textContent=`${shown.length} / ${SCHOOLS.length}`;$('#school-list').innerHTML=shown.length?shown.map(card).join(''):'<div class="school-empty">没有符合条件的院校，请调整筛选</div>';document.querySelectorAll('.school-item').forEach(b=>b.onclick=()=>select(b.dataset.id));}
 function select(id){chosen=id;history.replaceState(null,'','#school='+encodeURIComponent(id));renderList();renderDetail();}
 function ics(s){const end=s.registration.close;if(!end)return;const utc=new Date(end).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const dtstamp=new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const summary=s.name+' 2027博士报名截止（请核对学院通知）';const escI=x=>String(x).replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');const ics=`BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//PhD Tracker//ZH\r\nBEGIN:VEVENT\r\nUID:${s.id}-2027@phdtracker.local\r\nDTSTAMP:${dtstamp}\r\nDTSTART:${utc}\r\nSUMMARY:${escI(summary)}\r\nDESCRIPTION:${escI('北京时间；核实来源：'+s.portal)}\r\nURL:${s.portal}\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n`;const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`${s.name}-报名截止.ics`;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)}
+
+function materialsStorageKey(s){return 'phd-materials-2027-v1-'+s.id;}
+function materialsState(s){try{const v=JSON.parse(localStorage.getItem(materialsStorageKey(s))||'{}');return v&&typeof v==='object'?v:{}}catch{return {}}}
+function storeMaterials(s,items){try{localStorage.setItem(materialsStorageKey(s),JSON.stringify(items))}catch(e){}}
+function renderMaterials(s){
+  const m=s.materials||{status:'pending',notice:'材料要求待核实',groups:[]};
+  const arr=(m.groups||[]).flatMap(g=>g.items||[]);const done=materialsState(s);
+  const finished=arr.filter(x=>done[x.id]===true).length;
+  const ratio=arr.length?Math.round(finished/arr.length*100):0;
+  const tag={required:'需提交',optional:'有则提供',conditional:'视情况'};
+  const stateText={verified:'2027年院校官方清单已核实',partial:'部分信息已核实',pending:'正式材料清单待核实'};
+  return `<div class="section-title" id="material-section"><h3>教育学博士报考材料清单</h3><span>${esc(stateText[m.status]||stateText.pending)}</span></div>
+  <div class="materials-wrap"><div class="materials-toolbar"><div class="material-progress">准备进度 ${finished}/${arr.length} 项 · ${ratio}%</div><button type="button" class="material-clear" id="reset-materials">清除本校勾选</button></div>
+  <div class="material-bar" aria-hidden="true"><span style="width:${ratio}%"></span></div>
+  <div class="material-note">${esc(m.notice||'')} ${m.source?`<a class="material-link" target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(m.source))}">查看对应官方公告 ↗</a>`:''}<br>勾选仅保存在当前浏览器，不会同步到GitHub或其他设备。遇到补充通知仍须重新核对。</div>
+  ${(m.groups||[]).map(g=>`<div class="material-group"><div class="material-group-title">${esc(g.title)}</div>${(g.items||[]).map(item=>`<label class="material-row ${done[item.id]?'checked':''}"><input type="checkbox" class="material-checkbox" data-item="${esc(item.id)}" ${done[item.id]?'checked':''}><div class="material-text"><div class="material-title">${esc(item.title)}</div><div class="material-meta"><span class="material-tag ${item.level==='optional'?'optional':item.level==='conditional'?'conditional':''}">${m.status==='pending'||g.title.includes('非学校官方')?'个人准备参考':tag[item.level]||'待核实'}</span>${item.channel?`<span class="material-tag">${esc(item.channel)}</span>`:''}${item.due?`<span class="material-tag">${esc(item.due)}</span>`:''}</div>${item.note?`<div class="material-sub">${esc(item.note)}</div>`:''}</div></label>`).join('')}</div>`).join('')}
+  </div>`;
+}
+function bindMaterials(s){
+ document.querySelectorAll('.material-checkbox').forEach(x=>x.addEventListener('change',()=>{
+   const v=materialsState(s);v[x.dataset.item]=x.checked;storeMaterials(s,v);renderDetail();
+ }));
+ const b=document.querySelector('#reset-materials');if(b)b.addEventListener('click',()=>{storeMaterials(s,{});renderDetail()});
+}
+
 function renderDetail(){const s=SCHOOLS.find(x=>x.id===chosen)||SCHOOLS[0];const st=state(s),r=s.registration,end=daysUntil(r.close),events=monitor.changes.filter(x=>x.schoolId===s.id).slice(0,4),found=monitor.discovered.filter(x=>x.schoolId===s.id).slice(0,3);const alive=r.close&&end!==null&&end>=0;$('#detail').innerHTML=`
 <div class="detail-top"><div><div class="kicker">2027 · ACADEMIC PHD</div><h2>${esc(s.name)}</h2><div class="detail-sub">${esc(s.city)} · ${esc(s.unit)}</div></div><div class="actions"><a class="btn secondary" target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(s.portal))}">官网入口 ↗</a><button class="btn" id="ical" ${!r.close?'disabled title="报名时间未核实"':''}>↗ 添加截止日历</button></div></div>
 <div class="scope">${pill(st)} &nbsp; ${esc(s.scope)}</div>
@@ -64,10 +102,12 @@ function renderDetail(){const s=SCHOOLS.find(x=>x.id===chosen)||SCHOOLS[0];const
 ${s.advisor.length?`<div style="overflow-x:auto"><table class="adviser-table"><thead><tr><th>导师</th><th>研究方向</th><th>名额与说明</th></tr></thead><tbody>${s.advisor.map(a=>`<tr><td>${esc(a.name)}</td><td>${esc(a.direction)}</td><td>${esc(a.quota)}<div><a target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(a.source))}">查看官方目录 ↗</a></div></td></tr>`).join('')}</tbody></table></div>`:'<div class="emptyblock" style="margin-top:9px">导师姓名、个人招生名额与研究方向尚未取得足够的2027年官方依据。</div>'}
 <div class="section-title"><h3>报考流程与支持政策</h3><span>报名细则优先于通用章程</span></div>
 <div class="facts"><div class="fact"><div class="fact-title">01 / 纸质材料寄送截止</div><div class="fact-body ${present(s.mail.date)}">${s.mail.date?esc(s.mail.date)+'（北京时间）':'待核实'}<br>${esc(s.mail.precision)}${s.mail.note?'<br>'+esc(s.mail.note):''}</div></div><div class="fact"><div class="fact-title">02 / 笔试与面试日期</div><div class="fact-body ${present(s.exam)}">${esc(s.exam)}</div></div><div class="fact"><div class="fact-title">03 / 报名前是否必须联系导师</div><div class="fact-body ${present(s.contact)}">${esc(s.contact)}</div></div><div class="fact"><div class="fact-title">04 / 奖学金与助学资助</div><div class="fact-body ${present(s.funding)}">${esc(s.funding)}</div></div></div>
+${renderMaterials(s)}
 <div class="section-title"><h3>核查备注与注意事项</h3><span>避免误读专业与名额</span></div><ul class="notes">${s.notes.map(n=>`<li>${esc(n)}</li>`).join('')}<li>信息最后核实：${esc(s.verifiedAt)}；官网更改后仍须重新核对相关条款。</li></ul>
 ${events.length||found.length?`<div class="notify"><h4>本校官网最近检测到的变化（自动线索，待人工核实）</h4><p>${events.map(e=>`变更：${esc(e.title)} · ${esc(e.detectedAt)}<br>`).join('')}${found.map(e=>`新链接：<a target="_blank" href="${esc(safeUrl(e.url))}">${esc(e.title)}</a><br>`).join('')}</p></div>`:''}
 <div class="notify"><h4>更新原则</h4><p>自动监测只负责提示官方网站可能发生变化，不自动更改已核实的报名时间或导师名额；招录事实须人工确认后更新。官网若设置反爬限制，监测也可能失败。</p></div>`;
 const b=$('#ical');if(b)b.onclick=()=>ics(s);
+bindMaterials(s);
 }
 function renderMetrics(){const states=SCHOOLS.map(state);$('#m-open').textContent=SCHOOLS.filter(s=>['open','school-only','upcoming'].includes(s.status)).length;$('#m-soon').textContent=SCHOOLS.filter(s=>{const v=daysUntil(s.registration.close);return v!==null&&v>=0&&v<=14}).length;$('#m-wait').textContent=SCHOOLS.filter(s=>s.status==='pending').length;$('#verified').textContent=DATA.verifiedAt;}
 function renderMonitor(){

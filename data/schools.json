@@ -61,7 +61,92 @@
         "https://yzb.sjtu.edu.cn/zsjz/bsszs",
         "https://yzb.sjtu.edu.cn/xxgs/zsbf",
         "https://yzb.sjtu.edu.cn/post/3826"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://yzb.sjtu.edu.cn/xxgs/zsbf",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ccnu",
@@ -126,7 +211,92 @@
         "https://edu.ccnu.edu.cn/xwdt/tzgg.htm",
         "https://gs.ccnu.edu.cn/zsgz/bsyjs.htm",
         "https://gs.ccnu.edu.cn/info/1029/7263.htm"
-      ]
+      ],
+      "materials": {
+        "status": "partial",
+        "verifiedAt": "2026-11-22",
+        "notice": "学院要求按照公告附件《教育学院博士研究生申请—考核材料清单》提交。附件下载需验证码，尚未独立核对附件逐项内容；不要将下方参考准备清单视作正式要求。",
+        "source": "https://edu.ccnu.edu.cn/info/1020/94241.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "scnu",
@@ -196,7 +366,92 @@
         "https://yz.scnu.edu.cn/zhaoshengjianzhang/quanrizhiboshijianzhang/boshijianzhang/index.html",
         "https://yz.scnu.edu.cn/a/20261116/694.html",
         "https://yz.scnu.edu.cn/a/20261103/692.html"
-      ]
+      ],
+      "materials": {
+        "status": "partial",
+        "verifiedAt": "2026-11-22",
+        "notice": "已核实学校网上确认需上传博士报名材料的时间，但教育科学学院具体材料清单需进一步核对2027年院级实施细则；下方仅为个人准备参考。",
+        "source": "https://yz.scnu.edu.cn/a/20261116/694.html",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "xmu",
@@ -266,7 +521,169 @@
         "https://ihe.xmu.edu.cn/rcpy/zsgz.htm",
         "https://ihe.xmu.edu.cn/info/1311/43992.htm",
         "https://ihe.xmu.edu.cn/info/1311/44052.htm"
-      ]
+      ],
+      "materials": {
+        "status": "verified",
+        "verifiedAt": "2026-11-22",
+        "notice": "教育研究院2027年教育学学术博士：网上报名与纸质材料提交缺一不可。代表性已发表论文最多3篇，原文明确“不足3篇不影响受理”。",
+        "source": "https://ihe.xmu.edu.cn/info/1311/43992.htm",
+        "groups": [
+          {
+            "title": "纸质报名材料 · 最迟2026-12-06寄出",
+            "items": [
+              {
+                "id": "form",
+                "title": "2027年博士报名登记表",
+                "channel": "顺丰纸质件",
+                "note": "网报系统打印并亲笔签名",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "recommend",
+                "title": "两位教育学领域副教授及以上专家推荐信",
+                "channel": "顺丰纸质件",
+                "note": "",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "id",
+                "title": "身份证复印件",
+                "channel": "顺丰纸质件",
+                "note": "",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "score",
+                "title": "硕士阶段成绩单",
+                "channel": "顺丰纸质件",
+                "note": "加盖高校培养部门或档案所在单位公章",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "degree",
+                "title": "本科及硕士学历学位证明",
+                "channel": "顺丰纸质件",
+                "note": "应届硕士只需学生证复印件；其余情形按公告",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "statement-plan",
+                "title": "个人自述与博士研究计划",
+                "channel": "顺丰纸质件",
+                "note": "首页写明拟报考导师姓名（1—2位）",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "english",
+                "title": "英语水平能力证书",
+                "channel": "顺丰纸质件",
+                "note": "官方列明必备；成绩单要清晰，含姓名、考试、分数、考试日期",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "thesis",
+                "title": "硕士论文或摘要及相关材料",
+                "channel": "顺丰纸质件",
+                "note": "应届硕士可提交开题报告；论文评阅书等特殊要求请核实公告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "articles",
+                "title": "已公开发表的学术论文代表作（最多3篇）",
+                "channel": "顺丰纸质件",
+                "note": "不足3篇不影响受理。若有，提交封面、目录页、全文；非第一作者需贡献说明",
+                "level": "optional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "projects",
+                "title": "科研项目一览表",
+                "channel": "顺丰纸质件",
+                "note": "主持或参与项目时整理；不必附立项合同等",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "books",
+                "title": "专著/编著/译著的证明材料",
+                "channel": "顺丰纸质件",
+                "note": "如有，最多1部，提交封面、版权页和目录",
+                "level": "optional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "awards",
+                "title": "其他科研能力或工作业绩材料",
+                "channel": "顺丰纸质件",
+                "note": "如有，最多2项，每项不超过5页",
+                "level": "optional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "direction",
+                "title": "全日制定向身份相关材料",
+                "channel": "顺丰纸质件",
+                "note": "仅报考定向类别者",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              }
+            ]
+          },
+          {
+            "title": "额外电子件与考核前复核",
+            "items": [
+              {
+                "id": "article-word",
+                "title": "代表性论文材料电子版",
+                "channel": "邮件提交",
+                "note": "官方要求第9项材料另以Word格式压缩包发至 gjs@xmu.edu.cn；无成果时是否需要邮件说明请咨询学院",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "politics",
+                "title": "思想政治素质和品德情况审查表",
+                "channel": "考核前原件",
+                "note": "学院规定资格复审时携带，按要求填写并密封",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "originals",
+                "title": "身份证、成绩单、语言证明及学籍证件原件",
+                "channel": "考核前原件",
+                "note": "用于资格复审",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "bnu",
@@ -371,7 +788,142 @@
       "monitorUrls": [
         "https://yz.bnu.edu.cn/list/doctor",
         "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-004.html"
-      ]
+      ],
+      "materials": {
+        "status": "verified",
+        "verifiedAt": "2026-11-22",
+        "notice": "教育学部2027年学术博士申请材料已按官方实施办法整理。纸质件与匿名PDF是两套清单，不能相互代替。",
+        "source": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-004.html",
+        "groups": [
+          {
+            "title": "纸质申请材料 · 2026-12-03前必须寄达",
+            "items": [
+              {
+                "id": "registration",
+                "title": "博士报名登记表",
+                "channel": "纸质寄送",
+                "note": "网报系统打印；上传照片后打印，本人每页亲笔签名",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "statement",
+                "title": "个人自述",
+                "channel": "纸质寄送",
+                "note": "使用网报系统提供的空表",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "degree",
+                "title": "硕士毕业证书或学位证书复印件",
+                "channel": "纸质寄送",
+                "note": "应届硕士毕业生按学院说明办理；同等学力另有规则",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "english",
+                "title": "外语水平证明材料复印件",
+                "channel": "纸质寄送",
+                "note": "如无则无需提供；有六级证明建议备齐",
+                "level": "optional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单原件",
+                "channel": "纸质寄送",
+                "note": "由硕士就读高校或档案部门盖章",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "thesis",
+                "title": "硕士论文/论文摘要与开题报告",
+                "channel": "纸质寄送",
+                "note": "应届硕士：论文摘要＋开题报告小组组长签字的开题报告全文",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "plan",
+                "title": "博士研究计划书",
+                "channel": "纸质寄送",
+                "note": "",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "recommendations",
+                "title": "两封副教授及以上专家推荐信",
+                "channel": "纸质寄送",
+                "note": "系统下载模板；专家密封并在封口签字",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "works",
+                "title": "代表性学术作品或研究成果（最多3篇）",
+                "channel": "纸质寄送",
+                "note": "最多3篇；具体成果状况按实提交",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              }
+            ]
+          },
+          {
+            "title": "匿名初审PDF · 2026-12-01 16:00前上传",
+            "items": [
+              {
+                "id": "anon-statement",
+                "title": "匿名个人自述",
+                "channel": "评审系统PDF",
+                "note": "去除姓名、学号、硕士导师姓名",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "anon-thesis",
+                "title": "匿名论文材料",
+                "channel": "评审系统PDF",
+                "note": "应届硕士可提交论文摘要、开题报告全文",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "anon-plan",
+                "title": "匿名博士研究计划书",
+                "channel": "评审系统PDF",
+                "note": "检查正文、页眉页脚、图表与附录",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "anon-works",
+                "title": "匿名学术作品与科研成果（最多3篇）",
+                "channel": "评审系统PDF",
+                "note": "如有成果需隐去个人身份信息",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "cnu",
@@ -416,7 +968,92 @@
       "monitorUrls": [
         "https://www.cnu.edu.cn/zsjy/zsgz/index.htm",
         "https://grad.cnu.edu.cn/"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://www.cnu.edu.cn/zsjy/zsgz/index.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ecnu",
@@ -480,7 +1117,133 @@
       "monitorUrls": [
         "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
         "https://yjszs.ecnu.edu.cn/18/c8/c43265a792776/page.htm"
-      ]
+      ],
+      "materials": {
+        "status": "verified",
+        "verifiedAt": "2026-11-22",
+        "notice": "教育学部2027年秋季批次：系统上传电子版，除在线专家推荐信外还须按规定寄送相同材料的纸质件。",
+        "source": "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
+        "groups": [
+          {
+            "title": "招生系统上传材料",
+            "items": [
+              {
+                "id": "cover",
+                "title": "申请材料封面与目录",
+                "channel": "线上上传",
+                "note": "封面填写姓名、专业、方向、意向导师；目录标页码",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "reg",
+                "title": "报名登记表",
+                "channel": "线上上传＋纸质件",
+                "note": "系统提交，另按要求提供纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "id",
+                "title": "身份证正反面复印件",
+                "channel": "线上上传＋纸质件",
+                "note": "正反两面在同一页",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "status",
+                "title": "应届硕士学籍在线验证报告",
+                "channel": "线上上传＋纸质件",
+                "note": "应届硕士提交学信网教育部学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "score",
+                "title": "硕士成绩单",
+                "channel": "线上上传＋纸质件",
+                "note": "需原件或加盖公章的有效材料",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "thesis",
+                "title": "硕士学位论文相关材料",
+                "channel": "线上上传＋纸质件",
+                "note": "应届硕士可提供开题报告、论文摘要/目录、论文初稿等",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "english",
+                "title": "英语六级或其他外语能力证明",
+                "channel": "线上上传＋纸质件",
+                "note": "",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历（限2页）与个人陈述",
+                "channel": "线上上传＋纸质件",
+                "note": "简历中高中毕业后经历须连续",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "results",
+                "title": "科研成果及相关证明",
+                "channel": "线上上传＋纸质件",
+                "note": "根据个人已有成果如实提供，包括论文、项目和其他证明；不代表必有发表成果",
+                "level": "conditional",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "plan",
+                "title": "博士学位研究计划书",
+                "channel": "线上上传＋纸质件",
+                "note": "围绕拟报专业撰写，办法未统一限制字数格式",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "refs",
+                "title": "两名副教授及以上专家推荐意见",
+                "channel": "系统由专家在线提交",
+                "note": "由考生填写专家电子邮箱；无需自行上传或寄送推荐信",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          },
+          {
+            "title": "纸质件补充要求 · 2026-12-12前寄出",
+            "items": [
+              {
+                "id": "paperpack",
+                "title": "按学院要求装订整套申请材料",
+                "channel": "纸质寄送",
+                "note": "推荐信除外；A4打印、按指定顺序装订成册，使用顺丰寄送",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "bit",
@@ -531,7 +1294,92 @@
       "monitorUrls": [
         "https://grd.bit.edu.cn/zsgz/bsyjs/gzzd/index.htm",
         "https://grd.bit.edu.cn/zsgz/bsyjs/bslc/index.htm"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://grd.bit.edu.cn/zsgz/bsyjs/gzzd/index.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "muc",
@@ -575,7 +1423,92 @@
       ],
       "monitorUrls": [
         "https://grs.muc.edu.cn/yjsyzsw/bszs.htm"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://grs.muc.edu.cn/yjsyzsw/bszs.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "nju",
@@ -627,7 +1560,92 @@
         "https://yzb.nju.edu.cn/47865/list.htm",
         "https://yzb.nju.edu.cn/47841/list.htm",
         "https://yzb.nju.edu.cn/"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://yzb.nju.edu.cn/47865/list.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "seu",
@@ -691,7 +1709,92 @@
       "monitorUrls": [
         "https://yzb.seu.edu.cn/6677/list.htm",
         "https://yzb.seu.edu.cn/2026/1103/c6677a588544/page.htm"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://yzb.seu.edu.cn/2026/1103/c6677a588544/page.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "zju",
@@ -743,7 +1846,92 @@
       "monitorUrls": [
         "https://www.ced.zju.edu.cn/",
         "https://www.grs.zju.edu.cn/"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://www.grs.zju.edu.cn/",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "hust",
@@ -800,7 +1988,92 @@
       "monitorUrls": [
         "https://jky.hust.edu.cn/zspx.htm",
         "https://gszs.hust.edu.cn/"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://gszs.hust.edu.cn/info/1106/4142.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "njnu",
@@ -844,7 +2117,92 @@
       ],
       "monitorUrls": [
         "https://yjszs.njnu.edu.cn/"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://yjszs.njnu.edu.cn/",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "szu",
@@ -895,7 +2253,92 @@
       "monitorUrls": [
         "https://fe.szu.edu.cn/zsxx/bsyjszs.htm",
         "https://fe.szu.edu.cn/xbzx/tzgg.htm"
-      ]
+      ],
+      "materials": {
+        "status": "pending",
+        "verifiedAt": null,
+        "notice": "尚未独立核实该校2027年教育学学术博士的完整报考材料要求。以下仅是个人准备建议，不代表该校必交清单。",
+        "source": "https://fe.szu.edu.cn/info/1013/4466.htm",
+        "groups": [
+          {
+            "title": "个人预备清单（仅供规划，非学校官方要求）",
+            "items": [
+              {
+                "id": "id-card",
+                "title": "身份证扫描件及复印件",
+                "channel": "个人准备",
+                "note": "最终格式和复印要求以学院通知为准",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "certificates",
+                "title": "本科、硕士学历学位材料或应届学籍证明",
+                "channel": "个人准备",
+                "note": "应届硕士需核实是否提交学籍在线验证报告",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "transcript",
+                "title": "硕士课程成绩单",
+                "channel": "个人准备",
+                "note": "可提前咨询学校盖章流程",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cet6",
+                "title": "大学英语六级成绩证明",
+                "channel": "个人准备",
+                "note": "你已取得570+；具体证明格式需核对",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "cv",
+                "title": "个人简历与个人自述",
+                "channel": "个人准备",
+                "note": "有些院校有专用模板",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "research",
+                "title": "博士研究计划书",
+                "channel": "个人准备",
+                "note": "不同院校的字数、格式与研究方向要求不同",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "references",
+                "title": "两位专家推荐人的联系与推荐材料",
+                "channel": "个人准备",
+                "note": "可能需在线提交或密封纸质件",
+                "level": "required",
+                "source": "",
+                "due": ""
+              },
+              {
+                "id": "portfolio",
+                "title": "科研成果与硕士论文/开题报告",
+                "channel": "个人准备",
+                "note": "未发表论文不等于所有学校都不符合条件；逐校核实",
+                "level": "required",
+                "source": "",
+                "due": ""
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
