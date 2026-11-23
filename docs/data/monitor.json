@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T03:20:11Z",
+  "generatedAt": "2026-11-23T03:25:28Z",
   "summary": {
-    "ok": 30,
-    "failed": 3
+    "ok": 28,
+    "failed": 5
   },
   "changes": [
     {
@@ -123,14 +123,14 @@
     {
       "schoolId": "ecnu",
       "url": "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
-      "ok": true,
-      "title": "教育学部2027年博士研究生招生工作办法"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='ed.ecnu.edu.cn', port=443): Max retries exceeded with url: /19/5f/c45914a792927/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='ed.ecnu.edu.cn', port=443): Failed to resolve 'ed.e"
     },
     {
       "schoolId": "ecnu",
       "url": "https://yjszs.ecnu.edu.cn/18/c8/c43265a792776/page.htm",
-      "ok": true,
-      "title": "华东师范大学2027年博士研究生招生简章"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yjszs.ecnu.edu.cn', port=443): Max retries exceeded with url: /18/c8/c43265a792776/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='yjszs.ecnu.edu.cn', port=443): Failed to resolve"
     },
     {
       "schoolId": "bit",
