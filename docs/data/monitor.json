@@ -1,23 +1,40 @@
 {
-  "generatedAt": "2026-11-22T18:58:22Z",
+  "generatedAt": "2026-11-23T01:25:28Z",
   "summary": {
-    "ok": 30,
-    "failed": 3
+    "ok": 28,
+    "failed": 5
   },
-  "changes": [],
+  "changes": [
+    {
+      "schoolId": "scnu",
+      "schoolName": "华南师范大学",
+      "url": "https://yz.scnu.edu.cn/a/20261103/692.html",
+      "title": "2027年博士招生专业目录 - 博士简章 - 华南师范大学研究生招生信息网",
+      "detectedAt": "2026-11-23T01:25:28Z",
+      "status": "unverified"
+    },
+    {
+      "schoolId": "scnu",
+      "schoolName": "华南师范大学",
+      "url": "https://yz.scnu.edu.cn/a/20261116/694.html",
+      "title": "2027年申请考核制博士招生实施细则 - 博士简章 - 华南师范大学研究生招生信息网",
+      "detectedAt": "2026-11-23T01:25:28Z",
+      "status": "unverified"
+    }
+  ],
   "discovered": [],
   "pages": [
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/zsjz/bsszs",
-      "ok": true,
-      "title": "博士生招生 - 上海交通大学研究生招生网"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Max retries exceeded with url: /zsjz/bsszs (Caused by NewConnectionError(\"HTTPSConnection(host='yzb.sjtu.edu.cn', port=443): Failed to establish a new connection: [E"
     },
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/xxgs/zsbf",
-      "ok": true,
-      "title": "招生办法 - 上海交通大学研究生招生网"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Max retries exceeded with url: /xxgs/zsbf (Caused by NewConnectionError(\"HTTPSConnection(host='yzb.sjtu.edu.cn', port=443): Failed to establish a new connection: [Er"
     },
     {
       "schoolId": "sjtu",
