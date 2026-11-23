@@ -146,6 +146,26 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "2027年博士招生简章（校本部）",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://yzb.sjtu.edu.cn/post/3826",
+            "note": "学校官方章程；报名使用的附表请再核对教育学院招生办法。"
+          },
+          {
+            "title": "各院系博士招生办法入口",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://yzb.sjtu.edu.cn/xxgs/zsbf",
+            "note": "查询拟报学院申请要求及附件；尚未确认统一的教育学专用下载模板。"
+          }
+        ]
       }
     },
     {
@@ -294,6 +314,26 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "2027年博士研究生报考须知",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://gs.ccnu.edu.cn/info/1029/7263.htm",
+            "note": "含报名材料要求及相关附件，具体还须与教育学院细则对照。"
+          },
+          {
+            "title": "教育学院2027年申请—考核制实施细则",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://edu.ccnu.edu.cn/info/1020/94241.htm",
+            "note": "查看教育学院要求与是否有附件；网页可能限制自动读取。"
           }
         ]
       }
@@ -449,6 +489,33 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "博士报名用表（官方资料下载）",
+            "kind": "template",
+            "edition": "archive",
+            "url": "https://yz.scnu.edu.cn/a/20181203/323.html",
+            "note": "该资料页建立较早，下载前须对照2027年最新招生简章确认适用版本。"
+          },
+          {
+            "title": "研究生招生网资料下载专区",
+            "kind": "download",
+            "edition": "current",
+            "url": "https://yz.scnu.edu.cn/ziliaoxiazai/index.html",
+            "note": "可查博士报名用表、政审表等常用文件。"
+          },
+          {
+            "title": "2027年博士招生简章与附件",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://yz.scnu.edu.cn/a/20261104/693.html",
+            "note": "优先查看当年简章所列操作指引及报名用表下载入口。"
           }
         ]
       }
@@ -681,6 +748,33 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "教育研究院2027年教育学学术博士申请—考核办法",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://ihe.xmu.edu.cn/info/1311/43992.htm",
+            "note": "含完整材料清单；思想政治品德审查表按院校官方提示下载。"
+          },
+          {
+            "title": "厦门大学招生网",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://zs.xmu.edu.cn/",
+            "note": "官网查找博士研究生思想政治素质和品德审查表等校级表格；未确认直接下载路径。"
+          },
+          {
+            "title": "教育研究院招生工作公告",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://ihe.xmu.edu.cn/rcpy/zsgz.htm",
+            "note": "核对2027学术学位博士通知及后续更新。"
           }
         ]
       }
@@ -923,6 +1017,33 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "个人自述及专家推荐信模板（学校官方）",
+            "kind": "template",
+            "edition": "2027",
+            "url": "https://yz.bnu.edu.cn/detail/58433691-123d-4fc2-943c-68d5905832b1",
+            "note": "招生网2026年11月发布的下载入口，可能直接触发文件下载。"
+          },
+          {
+            "title": "教育学部2027年学术博士申请—考核实施办法",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://yz.bnu.edu.cn/content/zyml/2027/bsxx_yxsm-004.html",
+            "note": "核对匿名材料、电子PDF要求与纸质寄送规定。"
+          },
+          {
+            "title": "2027年博士招生通知栏目",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://yz.bnu.edu.cn/list/doctor",
+            "note": "如模板下载链接失效，可从此栏目定位最新版本。"
+          }
+        ]
       }
     },
     {
@@ -1051,6 +1172,19 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "首都师范大学招生官方信息入口",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://www.cnu.edu.cn/zsjy/zsgz/index.htm",
+            "note": "尚未确认2027年教育学学术博士专用资料下载页。"
           }
         ]
       }
@@ -1243,6 +1377,33 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "博士招生常用下载",
+            "kind": "download",
+            "edition": "current",
+            "url": "https://yjszs.ecnu.edu.cn/cyxz/list.htm",
+            "note": "官方常用下载栏目；需确认表格是否适用于2027届教育学部。"
+          },
+          {
+            "title": "2027年博士网上报名提示",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://yjszs.ecnu.edu.cn/18/ce/c43459a792782/page.htm",
+            "note": "包含报名时需上传材料的提示。"
+          },
+          {
+            "title": "教育学部2027年博士招生工作办法",
+            "kind": "notice",
+            "edition": "2027",
+            "url": "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
+            "note": "优先核实学院专门的材料要求。"
+          }
+        ]
       }
     },
     {
@@ -1379,6 +1540,19 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "北京理工大学研究生院博士招生入口",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://grd.bit.edu.cn/zsgz/bsyjs/gzzd/index.htm",
+            "note": "未核实到2027教育学博士申请专用资料下载中心，请关注正式学院公告。"
+          }
+        ]
       }
     },
     {
@@ -1506,6 +1680,19 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "中央民族大学博士招生公告栏",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://grs.muc.edu.cn/yjsyzsw/bszs.htm",
+            "note": "目前未核实2027教育学学术博士专用附件或表格；勿误用2026年文件。"
           }
         ]
       }
@@ -1643,6 +1830,26 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "南京大学博士招生公告入口",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://yzb.nju.edu.cn/47841/list.htm",
+            "note": "后续从2027招生章程或相关学院细则定位对应表格。"
+          },
+          {
+            "title": "南京大学研究生招生相关资料栏目",
+            "kind": "download",
+            "edition": "current",
+            "url": "https://yzb.nju.edu.cn/47865/list.htm",
+            "note": "官方栏目入口；是否包含当年教育学报考表格仍需核查。"
           }
         ]
       }
@@ -1794,6 +2001,26 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "2027年全日制博士报名须知及附件",
+            "kind": "template",
+            "edition": "2027",
+            "url": "https://yzb.seu.edu.cn/2026/1103/c6677a588544/page.htm",
+            "note": "官方公告含申请考核申请表、专家推荐信及承诺书等附件；进入页面下载。"
+          },
+          {
+            "title": "东南大学博士招生公告栏目",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://yzb.seu.edu.cn/6677/",
+            "note": "核对2027各学院工作细则和是否另有附件。"
+          }
+        ]
       }
     },
     {
@@ -1929,6 +2156,19 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "浙江大学研究生院官网",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://www.grs.zju.edu.cn/",
+            "note": "该网页自动读取受限，尚未确认教育学学术博士2027年专用模板。"
           }
         ]
       }
@@ -2073,6 +2313,26 @@
             ]
           }
         ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "教育科学研究院博士申请—考核报考表格",
+            "kind": "template",
+            "edition": "archive",
+            "url": "https://jky.hust.edu.cn/info/1082/4391.htm",
+            "note": "历史官方表格页面；2027年使用前须以教育科学研究院当年通知为准。"
+          },
+          {
+            "title": "教育科学研究院研究生招生信息",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://jky.hust.edu.cn/zspx/yjszs.htm",
+            "note": "查询最新招生细则及附件，注意区分学术博士与教育博士。"
+          }
+        ]
       }
     },
     {
@@ -2200,6 +2460,19 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "南京师范大学研究生招生网",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://yjszs.njnu.edu.cn/",
+            "note": "暂未定位到可核实的2027年教育学学术博士专用材料下载页面；自动访问可能受到限制。"
           }
         ]
       }
@@ -2336,6 +2609,26 @@
                 "due": ""
               }
             ]
+          }
+        ]
+      },
+      "officialDownloads": {
+        "lastReviewed": "2026-11-23",
+        "notice": "链接均指向学校官方网页或其文件下载入口，不代表本站已经保存附件。正式使用前以院校2027年招生章程、院系细则及当期附件为准。",
+        "items": [
+          {
+            "title": "申请考核制申请表、专家推荐书等模板",
+            "kind": "template",
+            "edition": "archive",
+            "url": "https://yz.szu.edu.cn/info/1021/13264.htm",
+            "note": "学校2025年发布的官方模板汇总。请与2027年教育学部正式公告核对版本。"
+          },
+          {
+            "title": "教育学部博士研究生招生栏目",
+            "kind": "portal",
+            "edition": "current",
+            "url": "https://fe.szu.edu.cn/zsxx/bsyjszs.htm",
+            "note": "查看2027学术学位博士的适用材料细则；已有直博通知不能替代普通招考。"
           }
         ]
       }

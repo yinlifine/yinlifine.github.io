@@ -32,6 +32,24 @@
 .material-meta{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}.material-tag{font-size:10px;color:#58756e;background:#eaf3ef;border-radius:5px;padding:1px 6px}.material-tag.optional{color:#8b6727;background:#fff2d7}.material-tag.conditional{color:#715e91;background:#f0ecf8}.material-sub{font-size:11px;color:#687f79;line-height:1.6;margin-top:4px}
 .material-link{font-size:11px;white-space:nowrap}.material-clear{font-size:11px;padding:5px 9px;border:1px solid #cbded9;border-radius:7px;background:#fff;color:#3a6e69}
 @media(max-width:560px){.materials-wrap{padding:13px}.material-row{padding-left:1px;padding-right:1px}.material-group-title{font-size:12px}}
+
+/* Official downloads panel: links ONLY, no unsupported local file copies */
+.downloads-wrap{border:1px solid #dbe8e7;border-radius:14px;padding:18px;background:#fff;margin:7px 0 8px}
+.downloads-intro{font-size:12px;color:#6c807e;line-height:1.75;margin:0 0 12px}
+.downloads-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.download-card{display:flex;flex-direction:column;gap:7px;padding:13px 14px;border:1px solid #e0e8e6;border-radius:11px;background:#f9fbfa;min-width:0}
+.download-card:hover{border-color:#a8c9c5;background:#fff}
+.download-head{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.download-type{font-size:10px;border-radius:6px;background:#e1f0ea;color:#2d7364;padding:2px 7px;font-weight:650}
+.download-type.dl-notice{background:#e6eef5;color:#3d6989}
+.download-type.dl-portal{background:#efeee9;color:#686b67}
+.download-edition{color:#6a7781;font-size:10px}
+.download-title{font-size:13px;font-weight:700;line-height:1.6}
+.download-title a{color:#235f66;text-decoration:none}
+.download-title a:hover{text-decoration:underline}
+.download-footnote{font-size:11px;line-height:1.65;color:#6d7b7a}
+.download-alert{margin-top:13px;border-left:3px solid #c9a066;padding:10px 11px;border-radius:6px;background:#fffaf0;color:#796a4f;font-size:11px;line-height:1.75}
+@media(max-width:760px){.downloads-grid{grid-template-columns:1fr}.downloads-wrap{padding:12px}.download-card{padding:12px}}
 </style>
 </head>
 <body>
@@ -82,6 +100,23 @@ function renderMaterials(s){
   ${(m.groups||[]).map(g=>`<div class="material-group"><div class="material-group-title">${esc(g.title)}</div>${(g.items||[]).map(item=>`<label class="material-row ${done[item.id]?'checked':''}"><input type="checkbox" class="material-checkbox" data-item="${esc(item.id)}" ${done[item.id]?'checked':''}><div class="material-text"><div class="material-title">${esc(item.title)}</div><div class="material-meta"><span class="material-tag ${item.level==='optional'?'optional':item.level==='conditional'?'conditional':''}">${m.status==='pending'||g.title.includes('非学校官方')?'个人准备参考':tag[item.level]||'待核实'}</span>${item.channel?`<span class="material-tag">${esc(item.channel)}</span>`:''}${item.due?`<span class="material-tag">${esc(item.due)}</span>`:''}</div>${item.note?`<div class="material-sub">${esc(item.note)}</div>`:''}</div></label>`).join('')}</div>`).join('')}
   </div>`;
 }
+
+function renderOfficialDownloads(s){
+ const group=s.officialDownloads||{items:[],notice:''};
+ const list=Array.isArray(group.items)?group.items:[];
+ const typeNames={template:'报名模板 / 含附件',download:'官方资料下载栏目',notice:'招生通知 / 材料说明',portal:'招生官网入口'};
+ const labels={2027:'2027适用来源',archive:'历史或常驻资料 · 核对版本',current:'常设官方入口'};
+ const items=list.map(item=>{
+  const kind=['template','download','notice','portal'].includes(item.kind)?item.kind:'portal';
+  const edition=item.edition==='2027'?'2027':item.edition==='archive'?'archive':'current';
+  return `<article class="download-card"><div class="download-head"><span class="download-type dl-${kind}">${esc(typeNames[kind])}</span><span class="download-edition">${esc(labels[edition])}</span></div><div class="download-title"><a target="_blank" rel="noopener noreferrer" href="${esc(safeUrl(item.url))}">${esc(item.title)} ↗</a></div><div class="download-footnote">${esc(item.note||'请以当年院校最新正式公告为准。')}</div></article>`;
+ }).join('');
+ return `<div class="section-title" id="official-downloads"><h3>官方招生资料与模板下载</h3><span>各校官网链接 · 更新核查 ${esc(group.lastReviewed||'待核实')}</span></div>
+ <div class="downloads-wrap"><p class="downloads-intro">集中查找该院校博士申请表、专家推荐信、个人自述、研究计划模板，以及学校与学院发布的正式材料清单。点击后前往官方网页，有些文件需在网页内再点击“附件”下载。</p>
+ <div class="downloads-grid">${items||'<div class="download-footnote">尚未核实此校的官方资料下载入口。</div>'}</div>
+ <div class="download-alert">${esc(group.notice||'所有报考材料均须以2027年当期官方通知为准。')} <strong>注意：</strong>“历史或常驻资料”并不代表2027年仍可使用；“招生官网入口”不代表网页内一定提供下载文件。新链接须人工核实后录入。</div></div>`;
+}
+
 function bindMaterials(s){
  document.querySelectorAll('.material-checkbox').forEach(x=>x.addEventListener('change',()=>{
    const v=materialsState(s);v[x.dataset.item]=x.checked;storeMaterials(s,v);renderDetail();
@@ -103,6 +138,7 @@ ${s.advisor.length?`<div style="overflow-x:auto"><table class="adviser-table"><t
 <div class="section-title"><h3>报考流程与支持政策</h3><span>报名细则优先于通用章程</span></div>
 <div class="facts"><div class="fact"><div class="fact-title">01 / 纸质材料寄送截止</div><div class="fact-body ${present(s.mail.date)}">${s.mail.date?esc(s.mail.date)+'（北京时间）':'待核实'}<br>${esc(s.mail.precision)}${s.mail.note?'<br>'+esc(s.mail.note):''}</div></div><div class="fact"><div class="fact-title">02 / 笔试与面试日期</div><div class="fact-body ${present(s.exam)}">${esc(s.exam)}</div></div><div class="fact"><div class="fact-title">03 / 报名前是否必须联系导师</div><div class="fact-body ${present(s.contact)}">${esc(s.contact)}</div></div><div class="fact"><div class="fact-title">04 / 奖学金与助学资助</div><div class="fact-body ${present(s.funding)}">${esc(s.funding)}</div></div></div>
 ${renderMaterials(s)}
+${renderOfficialDownloads(s)}
 <div class="section-title"><h3>核查备注与注意事项</h3><span>避免误读专业与名额</span></div><ul class="notes">${s.notes.map(n=>`<li>${esc(n)}</li>`).join('')}<li>信息最后核实：${esc(s.verifiedAt)}；官网更改后仍须重新核对相关条款。</li></ul>
 ${events.length||found.length?`<div class="notify"><h4>本校官网最近检测到的变化（自动线索，待人工核实）</h4><p>${events.map(e=>`变更：${esc(e.title)} · ${esc(e.detectedAt)}<br>`).join('')}${found.map(e=>`新链接：<a target="_blank" href="${esc(safeUrl(e.url))}">${esc(e.title)}</a><br>`).join('')}</p></div>`:''}
 <div class="notify"><h4>更新原则</h4><p>自动监测只负责提示官方网站可能发生变化，不自动更改已核实的报名时间或导师名额；招录事实须人工确认后更新。官网若设置反爬限制，监测也可能失败。</p></div>`;
