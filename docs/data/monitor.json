@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-11-25T01:28:12Z",
+  "generatedAt": "2026-11-25T07:34:36Z",
   "summary": {
     "ok": 28,
     "failed": 5
   },
   "changes": [
+    {
+      "schoolId": "nju",
+      "schoolName": "南京大学",
+      "url": "https://yzb.nju.edu.cn/",
+      "title": "研究生招生网",
+      "detectedAt": "2026-11-25T07:34:36Z",
+      "status": "unverified"
+    },
+    {
+      "schoolId": "nju",
+      "schoolName": "南京大学",
+      "url": "https://yzb.nju.edu.cn/47865/list.htm",
+      "title": "博士最新通知",
+      "detectedAt": "2026-11-25T07:34:36Z",
+      "status": "unverified"
+    },
     {
       "schoolId": "scnu",
       "schoolName": "华南师范大学",
