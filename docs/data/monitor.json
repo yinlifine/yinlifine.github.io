@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-11-26T08:15:59Z",
+  "generatedAt": "2026-11-26T21:30:25Z",
   "summary": {
     "ok": 30,
     "failed": 3
   },
   "changes": [
+    {
+      "schoolId": "cnu",
+      "schoolName": "首都师范大学",
+      "url": "https://grad.cnu.edu.cn/",
+      "title": "研究生院",
+      "detectedAt": "2026-11-26T21:30:25Z",
+      "status": "unverified"
+    },
     {
       "schoolId": "nju",
       "schoolName": "南京大学",
