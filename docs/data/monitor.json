@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T08:30:29Z",
+  "generatedAt": "2026-11-27T21:16:15Z",
   "summary": {
-    "ok": 26,
-    "failed": 7
+    "ok": 28,
+    "failed": 5
   },
   "changes": [
     {
@@ -186,14 +186,14 @@
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/xxgs/zsbf",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Read timed out. (read timeout=18)"
+      "ok": true,
+      "title": "招生办法 - 上海交通大学研究生招生网"
     },
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/post/3826",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Read timed out. (read timeout=18)"
+      "ok": true,
+      "title": "上海交通大学2027年博士研究生招生简章 （校本部） - 上海交通大学研究生招生网"
     },
     {
       "schoolId": "ccnu",
@@ -276,26 +276,26 @@
     {
       "schoolId": "ecnu",
       "url": "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='ed.ecnu.edu.cn', port=443): Max retries exceeded with url: /19/5f/c45914a792927/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='ed.ecnu.edu.cn', port=443): Failed to resolve 'ed.e"
+      "ok": true,
+      "title": "教育学部2027年博士研究生招生工作办法"
     },
     {
       "schoolId": "ecnu",
       "url": "https://yjszs.ecnu.edu.cn/18/c8/c43265a792776/page.htm",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='yjszs.ecnu.edu.cn', port=443): Max retries exceeded with url: /18/c8/c43265a792776/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='yjszs.ecnu.edu.cn', port=443): Failed to resolve"
+      "ok": true,
+      "title": "华东师范大学2027年博士研究生招生简章"
     },
     {
       "schoolId": "bit",
       "url": "https://grd.bit.edu.cn/zsgz/bsyjs/gzzd/index.htm",
-      "ok": true,
-      "title": "招生简章-北京理工大学研究生院"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='grd.bit.edu.cn', port=443): Max retries exceeded with url: /zsgz/bsyjs/gzzd/index.htm (Caused by NewConnectionError(\"HTTPSConnection(host='grd.bit.edu.cn', port=443): Failed to establish a new c"
     },
     {
       "schoolId": "bit",
       "url": "https://grd.bit.edu.cn/zsgz/bsyjs/bslc/index.htm",
-      "ok": true,
-      "title": "招生专业目录-北京理工大学研究生院"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='grd.bit.edu.cn', port=443): Max retries exceeded with url: /zsgz/bsyjs/bslc/index.htm (Caused by NewConnectionError(\"HTTPSConnection(host='grd.bit.edu.cn', port=443): Failed to establish a new c"
     },
     {
       "schoolId": "muc",
