@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-26T21:30:25Z",
+  "generatedAt": "2026-11-27T08:30:29Z",
   "summary": {
-    "ok": 30,
-    "failed": 3
+    "ok": 26,
+    "failed": 7
   },
   "changes": [
     {
-      "schoolId": "cnu",
-      "schoolName": "首都师范大学",
-      "url": "https://grad.cnu.edu.cn/",
-      "title": "研究生院",
-      "detectedAt": "2026-11-26T21:30:25Z",
+      "schoolId": "seu",
+      "schoolName": "东南大学",
+      "url": "https://yzb.seu.edu.cn/6677/list.htm",
+      "title": "博士招生",
+      "detectedAt": "2026-11-27T08:30:29Z",
       "status": "unverified"
     },
     {
@@ -18,7 +18,7 @@
       "schoolName": "南京大学",
       "url": "https://yzb.nju.edu.cn/",
       "title": "研究生招生网",
-      "detectedAt": "2026-11-26T08:15:59Z",
+      "detectedAt": "2026-11-27T08:30:29Z",
       "status": "unverified"
     },
     {
@@ -26,7 +26,15 @@
       "schoolName": "南京大学",
       "url": "https://yzb.nju.edu.cn/47865/list.htm",
       "title": "博士最新通知",
-      "detectedAt": "2026-11-26T08:15:59Z",
+      "detectedAt": "2026-11-27T08:30:29Z",
+      "status": "unverified"
+    },
+    {
+      "schoolId": "cnu",
+      "schoolName": "首都师范大学",
+      "url": "https://grad.cnu.edu.cn/",
+      "title": "研究生院",
+      "detectedAt": "2026-11-26T21:30:25Z",
       "status": "unverified"
     },
     {
@@ -63,6 +71,22 @@
     }
   ],
   "discovered": [
+    {
+      "schoolId": "seu",
+      "schoolName": "东南大学",
+      "url": "https://yzb.seu.edu.cn/2026/1127/c6677a591078/page.htm",
+      "title": "东南大学 2027 年全日制博士研究生学费标准",
+      "detectedAt": "2026-11-27T08:30:29Z",
+      "status": "unverified"
+    },
+    {
+      "schoolId": "nju",
+      "schoolName": "南京大学",
+      "url": "https://yzb.nju.edu.cn/f8/6d/c47865a850029/page.htm",
+      "title": "南京大学关于2027年“卓越工程师联合培养博士研究生专项” 招生工作的通知",
+      "detectedAt": "2026-11-27T08:30:29Z",
+      "status": "unverified"
+    },
     {
       "schoolId": "nju",
       "schoolName": "南京大学",
@@ -162,14 +186,14 @@
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/xxgs/zsbf",
-      "ok": true,
-      "title": "招生办法 - 上海交通大学研究生招生网"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Read timed out. (read timeout=18)"
     },
     {
       "schoolId": "sjtu",
       "url": "https://yzb.sjtu.edu.cn/post/3826",
-      "ok": true,
-      "title": "上海交通大学2027年博士研究生招生简章 （校本部） - 上海交通大学研究生招生网"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yzb.sjtu.edu.cn', port=443): Read timed out. (read timeout=18)"
     },
     {
       "schoolId": "ccnu",
@@ -252,14 +276,14 @@
     {
       "schoolId": "ecnu",
       "url": "https://ed.ecnu.edu.cn/19/5f/c45914a792927/page.htm",
-      "ok": true,
-      "title": "教育学部2027年博士研究生招生工作办法"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='ed.ecnu.edu.cn', port=443): Max retries exceeded with url: /19/5f/c45914a792927/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='ed.ecnu.edu.cn', port=443): Failed to resolve 'ed.e"
     },
     {
       "schoolId": "ecnu",
       "url": "https://yjszs.ecnu.edu.cn/18/c8/c43265a792776/page.htm",
-      "ok": true,
-      "title": "华东师范大学2027年博士研究生招生简章"
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='yjszs.ecnu.edu.cn', port=443): Max retries exceeded with url: /18/c8/c43265a792776/page.htm (Caused by NameResolutionError(\"HTTPSConnection(host='yjszs.ecnu.edu.cn', port=443): Failed to resolve"
     },
     {
       "schoolId": "bit",
