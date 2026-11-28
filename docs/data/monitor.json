@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-27T21:16:15Z",
+  "generatedAt": "2026-11-28T07:47:21Z",
   "summary": {
-    "ok": 28,
-    "failed": 5
+    "ok": 30,
+    "failed": 3
   },
   "changes": [
     {
@@ -288,14 +288,14 @@
     {
       "schoolId": "bit",
       "url": "https://grd.bit.edu.cn/zsgz/bsyjs/gzzd/index.htm",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='grd.bit.edu.cn', port=443): Max retries exceeded with url: /zsgz/bsyjs/gzzd/index.htm (Caused by NewConnectionError(\"HTTPSConnection(host='grd.bit.edu.cn', port=443): Failed to establish a new c"
+      "ok": true,
+      "title": "招生简章-北京理工大学研究生院"
     },
     {
       "schoolId": "bit",
       "url": "https://grd.bit.edu.cn/zsgz/bsyjs/bslc/index.htm",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='grd.bit.edu.cn', port=443): Max retries exceeded with url: /zsgz/bsyjs/bslc/index.htm (Caused by NewConnectionError(\"HTTPSConnection(host='grd.bit.edu.cn', port=443): Failed to establish a new c"
+      "ok": true,
+      "title": "招生专业目录-北京理工大学研究生院"
     },
     {
       "schoolId": "muc",
